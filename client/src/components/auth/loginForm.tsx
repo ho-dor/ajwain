@@ -60,6 +60,10 @@ const LoginForm: React.FC = () => {
           <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
             Sign In
           </Button>
+          {/* OR
+          <div className="g-signin2" data-onsuccess="onSignIn">
+            Sign In with Google
+          </div> */}
         </Box>
       </Box>
     </Container>
